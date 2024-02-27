@@ -4,15 +4,21 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Vuelos;
 
 class VuelosController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function inicio()
     {
-        //
+        return view('inicio');
+    }
+
+    public function vueloshome()
+    {
+        return view('vuelos');
     }
 
     /**

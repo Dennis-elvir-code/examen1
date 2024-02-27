@@ -10,9 +10,9 @@ class VuelosAsientosController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function nuevovuelo()
     {
-        //
+        return view("nuevoVuelo");
     }
 
     /**
